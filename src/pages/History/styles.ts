@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const HistoryContainer = styled.main`
   flex: 1;
   padding: 3.5rem;
-  
+
   display: flex;
   flex-direction: column;
 
@@ -22,7 +22,7 @@ export const HistoryList = styled.div`
     width: 100%;
     border-collapse: collapse;
     min-width: 600px;
-    
+
     th {
       background-color: ${(props) => props.theme['gray-600']};
       padding: 1rem;
