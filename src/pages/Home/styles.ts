@@ -16,7 +16,6 @@ export const HomeContainer = styled.main`
   }
 `
 
-<<<<<<< HEAD
 export const FormContainer = styled.div`
   width: 100%;
   display: flex;
@@ -88,9 +87,6 @@ export const Separator = styled.div`
 `
 
 export const StartCountDownButton = styled.button`
-=======
-const BaseCountDownButton = styled.button`
->>>>>>> 087ac49fe7d23ae15851b3b8c95026d74053f8ae
   width: 100%;
   border: 0;
   padding: 1rem;
@@ -100,46 +96,20 @@ const BaseCountDownButton = styled.button`
   align-items: center;
   justify-content: center;
 
-<<<<<<< HEAD
-=======
-  color: ${(props) => props.theme['gray-100']};
-
->>>>>>> 087ac49fe7d23ae15851b3b8c95026d74053f8ae
   gap: 0.5rem;
   font-weight: bold;
 
   cursor: pointer;
 
-<<<<<<< HEAD
   background: ${(props) => props.theme['green-500']};
   color: ${(props) => props.theme['gray-100']};
 
-=======
->>>>>>> 087ac49fe7d23ae15851b3b8c95026d74053f8ae
   &:disabled {
     opacity: 0.7;
     cursor: not-allowed;
   }
-<<<<<<< HEAD
-=======
-`
-
-export const StartCountDownButton = styled(BaseCountDownButton)`
-  background: ${(props) => props.theme['green-500']};
->>>>>>> 087ac49fe7d23ae15851b3b8c95026d74053f8ae
 
   &:not(:disabled):hover {
     background: ${(props) => props.theme['green-700']};
   }
 `
-<<<<<<< HEAD
-=======
-
-export const StopCountDownButton = styled(BaseCountDownButton)`
-  background: ${(props) => props.theme['red-500']};
- 
-  &:not(:disabled):hover {
-    background: ${(props) => props.theme['red-700']};
-  }
-`
->>>>>>> 087ac49fe7d23ae15851b3b8c95026d74053f8ae
