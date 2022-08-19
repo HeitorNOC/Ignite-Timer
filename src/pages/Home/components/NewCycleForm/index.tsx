@@ -1,8 +1,6 @@
 import { FormContainer, MinutesAmountInput, TaskInput } from './styles'
-import * as zod from 'zod'
-import { useForm, useFormContext } from 'react-hook-form'
-import { zodResolver } from '@hookform/resolvers/zod'
 import { useContext } from 'react'
+import { useFormContext } from 'react-hook-form'
 import { CyclesContext } from '../../../../contexts/CyclesContext'
 
 export function NewCycleForm() {
@@ -14,13 +12,13 @@ export function NewCycleForm() {
       <label htmlFor="task">Vou trabalhar em</label>
       <TaskInput
         id="task"
-        list="task-suggestion"
+        list="task-suggestions"
         placeholder="Dê um nome para o seu projeto"
         disabled={!!activeCycle}
         {...register('task')}
       />
 
-      <datalist id="task-suggestion">
+      <datalist id="task-suggestions">
         <option value="Projeto 1" />
         <option value="Projeto 2" />
         <option value="Projeto 3" />
